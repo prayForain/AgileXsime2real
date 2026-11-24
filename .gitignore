@@ -1,0 +1,30 @@
+# Trained checkpoints & large model weights (upload to Hugging Face Hub instead)
+outputs/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Simulation & LeRobot datasets / media
+data/
+debug/
+*.npz
+*.parquet
+*.mp4
+*.avi
+
+# Cloned third-party repositories (install via README instructions)
+agx_arm_urdf/
+lerobot/
+pyAgxArm/
+
+# Python / OS / IDE artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+.DS_Store
+.vscode/
+.idea/
